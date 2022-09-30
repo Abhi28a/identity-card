@@ -4,11 +4,11 @@ import './Card.css';
 
 
 function Card() {
-    const [name, setName] = useState("Abhishek S");
-    const [branch, setBranch] = useState("CSE Department, KL University");
+    const [name, setName] = useState("Student Name");
+    const [branch, setBranch] = useState("University Name ");
     const [pos, setPos] = useState("UnderGrad Student");
-    const [id, setId] = useState("2100032180");
-    const [year, setYear] = useState("2021-2025");
+    const [id, setId] = useState("University ID ");
+    const [year, setYear] = useState("Batch No");
 
   return (
     <div className='Card'>
